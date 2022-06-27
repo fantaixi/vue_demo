@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="button" value="添加数据" @click="add">
+    <input type="button" value="移除数据" @click="remove">
+    <ul>
+        <li v-for="(value,index) in arr">
+            下标: {{ index }}值:{{ value }}
+        </li>
+    </ul>
+    <h2 v-for="value in vagetables" v-bind:title="value.name">
+            {{ value.name }}
+    </h2>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+    //v-for : 根据数据生成列表结构
+    var app = new Vue({
+        el: "#app",
+        data: {
+            arr: [1, 2, 3, 4, 5],
+            vagetables: [
+                {name: "aaaa"},
+                {name: "bbbb"}
+            ]
+        },
+        methods:{
+            add:function () {
+                this.vagetables.push({name:"++++"})
+            },
+            remove:function () {
+                this.vagetables.shift()
+            }
+        }
+    })
+</script>
+</body>
+</html>
