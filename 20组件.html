@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <div>
+        <!--        <fan-tai-xi></fan-tai-xi>-->
+        <cool-fan></cool-fan>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<template id="coolFan">
+    <h2>{{coolFan}}</h2>
+</template>
+
+<script type="x-template" id="coolFanDBL">
+    <h2>{{coolFan}} + aaa</h2>
+</script>
+
+<script>
+    //全局组件
+    // Vue.component("fanTaiXi",{
+    //   name:"fanTaiXi",
+    //   data(){
+    //     return{
+    //       hello:"hello world"
+    //     }
+    //   },
+    //   template:"<h1>{{hello}}</h1>"
+    // })
+
+    //局部组件
+    var coolFan = {
+        name: "coolFan",
+        data() {
+            return {
+                coolFan: "cool hello"
+            }
+        },
+        template: "#coolFanDBL"
+    }
+
+    var app = new Vue({
+        el: "#app",
+        data: {},
+        components: {
+            coolFan: coolFan,
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83feacc3-6659-4af0-b988-c045c37b4983" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../..//vuespace/demo2/1el.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../..//vuespace/demo2/2data.html" afterDir="false" />
-    </list>
+    <list default="true" id="83feacc3-6659-4af0-b988-c045c37b4983" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +10,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,19 +26,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Z/Desktop/04-源代码/demo-悦听player",
-    "settings.editor.selected.configurable": "liveEdit",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vuespace\vue_demo" />
       <recent name="E:\vuespace\demo2\css" />
       <recent name="E:\vuespace\demo2\img" />
       <recent name="E:\vuespace\demo2\js" />
@@ -62,6 +57,8 @@
       <workItem from="1656160470268" duration="935000" />
       <workItem from="1656241531020" duration="8800000" />
       <workItem from="1656323401602" duration="10866000" />
+      <workItem from="1667780548256" duration="6285000" />
+      <workItem from="1667787702062" duration="12734000" />
     </task>
     <servers />
   </component>
@@ -78,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
